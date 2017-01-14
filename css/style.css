@@ -1,0 +1,88 @@
+body {
+  text-rendering: optimizeLegibility;
+  margin: 0 auto;
+}
+
+nav {
+  margin-top:auto;
+  width: 100%;
+  height: 70px;
+  background-color: #464646;
+  border-bottom: 2px solid #000;
+}
+
+div.logo {
+  background-color: #000;
+}
+
+div.links {
+  float: right;
+  padding-top: 20px;
+}
+
+div.links a {
+  font-size: 18px !important;
+  color: #a5a5a5;
+  padding-right: 50px;
+  text-decoration: none;
+}
+div.links a:hover {
+  color: #3a5fe3;
+}
+
+li {
+  display: inline;
+}
+
+.hero {
+  background-image: url('../images/landing.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.gradient {
+  background-image: linear-gradient(-180deg, rgba(238,238,238,0.00) 0%, rgba(248,193,247,0.50) 40%, rgba(255,157,254,0.70) 100%);
+  opacity: .6;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+.hero .container {
+  text-align: left;
+  margin-top: 400px;
+  position: relative;
+}
+.hero .container h1,
+.hero .container p {
+  color: #fff;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: inline-block;
+  margin:4px;
+}
+
+.row #indicators {
+  display: inline-block;
+  width: 700px;
+}
+
+.start {
+  position: relative;
+  margin-top: 100vh;
+}
+
+.about {
+  padding-top: 100px;
+  height: 600px;
+  width: 100%;
+  background-color: #fff;
+}

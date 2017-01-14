@@ -1,0 +1,21 @@
+body {
+  text-rendering: optimizeLegibility;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  height: 40px;
+}
+
+li .links a {
+  font-size: 18px !important;
+  color: red;
+}
+
+ul .page-indicator li .circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+}
